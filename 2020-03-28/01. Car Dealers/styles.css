@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  width: 82%;
+  margin: 50px auto;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+}
+
+/* header */
+.dots,
+.title {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.title {
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+/* main */
+main {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
+}
+
+.company-info {
+  flex-basis: 40%;
+}
+
+.company-info p:nth-child(1),
+.company-info span {
+  font-weight: bold;
+}
+
+.benefits {
+  margin-top: 50px;
+}
+
+.benefits p {
+  margin-top: 5px;
+}
+
+.prices,
+.trusted,
+.chain {
+  display: flex;
+}

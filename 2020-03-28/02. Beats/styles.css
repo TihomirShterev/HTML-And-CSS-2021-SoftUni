@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+  margin: 0;
+  max-width: 1500px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav ul li {
+  margin: 20px 70px;
+  color: #9D9D9D;
+}
+
+nav ul li:hover,
+.solo-wireless-text button:hover,
+.powerbeats-text .buy button:hover {
+  cursor: pointer;
+}
+
+/* main */
+/* section.solo-wireless */
+.solo-wireless {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.solo-wireless-img,
+.solo-wireless-img .headphones {
+  width: 700px;
+}
+
+.solo-wireless-text {
+  height: 400px;
+  align-self: center;
+  width: 450px;
+  margin: 0 60px 0 250px;
+}
+
+.solo-wireless-text .title {
+  font-size: 50px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.solo-wireless-text .summary,
+.powerbeats-text .summary {
+  line-height: 1.8;
+}
+
+.solo-wireless-text button,
+.powerbeats-text .buy button {
+  padding: 15px 60px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  background: #FF0000;
+  text-transform: uppercase;
+  outline: none;
+}
+
+/* section.powerbeats */
+.powerbeats {
+  background: #FBFCFF;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.powerbeats-img {
+  flex-basis: 45%;
+}
+
+.powerbeats-text {
+  flex-basis: 35%;
+}
+
+.powerbeats-text .title {
+  font-size: 80px;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+.powerbeats-text .title,
+.powerbeats-text .sub-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.powerbeats-text .sub-title {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0 0 50px 160px;
+}
+
+.powerbeats-text .summary {
+  font-size: 20px;
+}
+
+.powerbeats-text .buy {
+  display: flex;
+}
+
+.powerbeats-text .buy .price {
+  font-size: 40px;
+}
+
+.powerbeats-text .buy button {
+  margin-left: 70px;
+}
+
+/* section.offer-wrapper */
+.offer-wrapper {
+  background: #575757;
+  padding: 30px;
+}
+
+.offer-wrapper .offer,
+.offer-wrapper a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.offer-wrapper .offer p,
+.offer-wrapper a {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.offer-wrapper .offer p {
+  margin-left: 20px;
+  font-weight: 100;
+}
+
+.offer-wrapper a {
+  padding: 50px 0 20px;
+}
+
+/* section.model */
+.model {
+  display: flex;
+}
+
+.girl,
+.headphones-motto {
+  flex-basis: 50%;
+}
+
+.headphones-motto {
+  display: flex;
+  justify-content: space-around;
+  background: #DADADA;
+}
+
+.headphones-motto .motto,
+.headphones-motto .headphones {
+  flex-basis: 33%;
+  margin: 50px 0;
+}
+
+.motto {
+  margin-left: 50px;
+}
+
+.motto .give-life {
+  font-size: 150px;
+  margin: 0;
+}
+
+.motto .beats {
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.motto .beats strong {
+  color: #FF0000;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 100;
+  padding: 30px;
+}
