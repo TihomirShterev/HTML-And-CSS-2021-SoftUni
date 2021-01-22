@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import 'https://use.fontawesome.com/releases/v5.15.1/css/all.css';
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.68),
+    rgba(0, 0, 0, 0.68)
+    ),
+    url("./image.jpg");
+}
+
+.title {
+  color: white;
+  font-weight: 300;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  border-radius: 10px;
+  padding: 25px 0 10px;
+  background: white;
+}
+
+.username-input,
+.password-input {
+  margin: 20px 0;
+}
+
+.username-input,
+.password-input {
+  border-bottom: 1px solid lightgray;
+}
+
+.login-button {
+  text-align: center;
+}
+
+.username-input input,
+.password-input input,
+.login-button input {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #75758B;
+}
+
+.login-button input {
+  padding: 10px 50px;
+  border-radius: 30px;
+  color: white;
+  background: #D41872;
+  outline: none;
+}
+
+.login-button input:hover {
+  cursor: pointer;
+}
+
+.fa-user,
+.fa-lock {
+  margin: 0 25px;
+  color: lightgray;
+}
