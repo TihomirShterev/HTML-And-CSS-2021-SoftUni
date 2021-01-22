@@ -1,0 +1,54 @@
+@media screen and (max-width: 800px) {
+  /* header */
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    width: unset;
+  }
+
+  /* main */
+  /* section.trainings */
+  .trainings {
+    flex-direction: column;
+  }
+
+  .trainings div {
+    width: 50%;
+  }
+
+  /* section.instructors */
+  .instructors-pic {
+    flex-direction: column;
+  }
+
+  /* section.classes */
+  .classes li {
+    width: 45%;
+  }
+
+  /* section.getInTouch */
+  .getInTouch {
+    flex-direction: column;
+    align-items: unset;
+    margin-bottom: 30px;
+  }
+
+  /* footer */
+  .site-footer .wrapper {
+    flex-wrap: wrap;
+  }
+
+  .site-footer .about {
+    /* flex: unset; */ /*първи начин*/
+    flex-basis: 100%;
+  }
+
+  .site-footer .sitemap {
+    flex: 0 0 50%;
+  }
+}
