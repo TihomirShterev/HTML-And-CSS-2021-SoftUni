@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import 'https://use.fontawesome.com/releases/v5.15.1/css/all.css';
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+/* shared */
+button {
+  color: white;
+  background: #FFA000;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.apply {
+  padding: 7px 70px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.title-orange-underline {
+  border-bottom: 4px solid #FFA000;
+  color: #234465;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-around;
+  background: #234465;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.nav-bar-first-part {
+  flex-basis: 16%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar-first-part img {
+  width: 110px;
+}
+
+.nav-bar-first-part button,
+.nav-bar-second-part nav ul li button {
+  padding: 5px 10px;
+}
+
+.nav-bar-second-part nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar-second-part nav ul li {
+  margin: 0 10px;
+}
+
+.nav-bar-second-part nav ul li a {
+  text-decoration: none;
+  color: #91A1B2;
+}
+
+/* main */
+/* section.sub-nav-bar */
+.sub-nav-bar nav ul {
+  list-style: none;
+  display: flex;
+  margin-left: 170px;
+}
+
+.sub-nav-bar nav ul li {
+  margin: 0 10px;
+}
+
+.sub-nav-bar nav ul li a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.sub-nav-bar nav ul li:nth-child(1) a {
+  color: #D37D00;
+}
+
+.sub-nav-bar nav ul li:nth-child(2) a {
+  color: #234465;
+  font-weight: bold;
+}
+
+/* section.heading */
+.heading {
+  background: #234465 
+  url(../Requirements-and-Resources/images/details-background.png) 
+  no-repeat top center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.heading h1 {
+  font-size: 38px;
+  font-weight: 900;
+  margin: 20px 0 10px;
+}
+
+
+.short-info-list {
+  list-style: none;
+  display: flex;
+  margin: 0 0 40px;
+}
+
+.short-info-list li {
+  margin: 0 10px;
+  font-weight: 300;
+}
+
+.short-info-list li i {
+  font-size: 20px;
+}
+
+/* section.detailed-info */
+.detailed-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* article.wordpress-logo */
+.wordpress-logo img {
+  width: 36%;
+  position: absolute;
+  bottom: -18px;
+  left: -70px;
+  opacity: 0.5;
+  transform: rotate(20deg);
+}
+
+/* article.about-the-course */
+.detailed-info .about-the-course {
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 30px 0;
+  padding: 0 40px;
+  color: #234465;
+  background: #F2F2F2;
+  z-index: 1;
+}
+
+.about-the-course p {
+  line-height: 1.5;
+  font-size: 14px;
+  margin: 0 0 30px;
+}
+
+.about-the-course p span {
+  font-weight: 900;
+}
+
+/* article.acquired-competences */
+.acquired-competences {
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 30px 0;
+  padding: 0 40px;
+  background: #F2F2F2;
+  z-index: 1;
+}
+
+.acquired-competences h1 {
+  text-align: center;
+}
+
+.acquired-competences ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+.acquired-competences ul li {
+  font-size: 14px;
+  flex-basis: 48%;
+  margin-bottom: 15px;
+  color: #565656;
+}
+
+.acquired-competences ul li i {
+  font-size: 20px;
+  color: #FFA000;
+  margin-right: 3px;
+}
+
+/* article.subjects */
+.subjects {
+  flex-basis: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #F2F2F2;
+}
+
+.subjects ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0 0 30px;
+}
+
+.subjects ul li {
+  margin: 6px 0;
+  padding: 5px 0 5px 5px;
+  flex-basis: 43%;
+  font-weight: bold;
+  font-size: 12px;
+  background: #DADADA;
+  border-left: 3px solid #234465;
+}
+
+.subjects ul li .number {
+  color: #234465;
+  margin-right: 15px;
+}
+
+.subjects ul li .name {
+  color: #565656;
+}
+
+/* article.suitable-for */
+.suitable-for {
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 40px 5px;
+  color: white;
+  background: #FFA000;
+}
+
+.suitable-for h1 {
+  border-bottom: 4px solid white;
+  margin-bottom: 0;
+}
+
+.suitable-for p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* article.terms-and-conditions */
+.terms-and-conditions {
+  flex-basis: 61%;
+  margin: 30px 30px;
+  padding: 0px 32px;
+  background: #F2F2F2;
+}
+
+.when h4,
+.how h4 {
+  color: #FFA000;
+  margin-bottom: 0;
+}
+
+.when p,
+.how p {
+  margin-top: 0;
+  font-size: 15px;
+  color: #565656;
+}
+
+.how p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #337AB7;
+}
+
+.course-type {
+  display: flex;
+  flex-direction: column;
+  width: 104%;
+  position: relative;
+  top: 4px;
+  left: -17px;
+  box-shadow: 2px 2px 20px 4px rgba(0,0,0,0.5)
+}
+
+.course-type .live,
+.course-type .online {
+  display: flex;
+  color: white;
+}
+
+.course-type .live h4,
+.course-type .online h4 {
+  margin: 7px 50px 0 15px;
+}
+
+.course-type .live {
+  background: #234465;
+}
+
+.course-type .online {
+  background: #FFA000;
+}
+
+.course-type .live ul,
+.course-type .online ul {
+  margin: 5px 0;
+}
+
+.course-type .online ul {
+  margin-left: 56px;
+}
+
+.course-type .live ul li,
+.course-type .online ul li {
+  margin: 3px 0;
+}
+
+/* article.lecturer */
+.lecturer {
+  flex-basis: 60%;
+  padding: 0 40px;
+  background: #F2F2F2;
+}
+
+.lecturer .title-orange-underline {
+  text-align: center;
+  width: 155px;
+  margin: 25px auto;
+}
+
+.lecturer h2 {
+  color: #234465;
+  font-size: 20px;
+  margin: 0 0 10px 125px;
+}
+
+.lecturer .profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.lecturer .profile img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 25px;
+}
+
+.lecturer .profile p {
+  color: #565656;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 50px;
+}
+
+/* article.bottom-button */
+.bottom-button {
+  margin: 20px 300px;
+}
+
+/* footer */
+footer {
+  background: #162B40;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
+
+footer p {
+  color: #8A959F;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+footer ul li:first-child {
+  color: #FFA000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-softuni,
+.contacts-and-copyright {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.contacts-and-copyright {
+  flex-basis: 15%;
+}
+
+.contacts-and-copyright .contacts {
+  display: flex;
+}
+
+.contacts-and-copyright .contacts li {
+  margin: 0 20px 0 0;
+  padding: 0;
+}
