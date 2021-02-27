@@ -1,1 +1,31 @@
 /* TODO: Add media queries */
+@media screen and (max-width: 600px) {
+  .thumbnails {
+    flex-direction: column;
+    margin: unset;
+  }
+
+  .thumbnails > div {
+    width: unset;
+    padding-left: unset;
+  }
+
+  body > div > main > section > div:nth-child(1) > a {
+    height: 400px;
+  }
+
+  body > div > main > section > div {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+  }
+
+  .thumbnails a img {
+    height: 300px;
+    object-fit: cover; /* по желание */
+  }
+
+  footer {
+    font-size: 26px;
+  }
+}

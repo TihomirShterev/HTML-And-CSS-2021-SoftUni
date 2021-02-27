@@ -1,0 +1,233 @@
+@import 'https://use.fontawesome.com/releases/v5.15.1/css/all.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  box-sizing: border-box;
+  max-width: 1536px;
+  margin: 0 auto;
+  font-family: Lato, sans-serif; 
+  /* border: 1px solid black; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Monserrat, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1350px;
+  margin: 20px auto;
+  padding: 0 30px 20px;
+  box-shadow: 0px 6px 17px -10px rgb(1 1 1 / 75%);
+  position: relative;
+  top: -35px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 1;
+  background: white;
+}
+
+.logo-container {
+  min-width: 50px;
+  max-width: 140px;
+  padding-top: 30px;
+}
+
+.logo-container img {
+  width: 100%;
+}
+
+header nav .list {
+  display: flex;
+  list-style-type: none;
+  align-items: flex-end;
+}
+
+header nav .list li {
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+header nav .list .hovered-item {
+  border-top: 6px solid #42ABF8;
+  padding-top: 30px;
+}
+
+header nav .list .profile-initials {
+  background: #42ABF8;
+  color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 17px -3px #42ABF8;
+  padding: 10px;
+  position: relative;
+  bottom: -10px;
+}
+
+/* main */
+/* section.certificates */
+.certificates {
+  background-image: linear-gradient(rgb(255, 255, 255, 0.85),
+  rgb(255, 255, 255, 0.9)),
+  url("./images/hero-certificates.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: -150px;
+  padding-top: 12%;
+  padding-bottom: 1%;
+}
+
+.certificates .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0 135px;
+}
+
+.certificates .info .text {
+  background: #29394B;
+  color: white;
+  flex-basis: 60%;
+  border-radius: 12px;
+  box-shadow: 0px 0px 17px -10px rgb(1 1 1 / 100%);
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 0 25px 20px;
+}
+
+.certificates .info .text h1,
+.diploma h1,
+.explore h1 {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.certificates .info .images {
+  display: flex;
+  align-items: flex-end;
+}
+
+.certificates .info .images .blue-container,
+.certificates .info .images .dark-container {
+  box-shadow: 0px 0px 17px -10px rgb(1 1 1 / 100%);
+}
+
+.certificates > p {
+  margin: 30px 135px 30px;
+  font-size: 18px;
+}
+
+/* section.diploma */
+.diploma {
+  font-size: 18px;
+  width: 1300px;
+  margin: 0 auto;
+  position: relative;
+  top: -60px;
+}
+
+.diploma h1 {
+  text-align: center;
+}
+
+.diploma .paragraphs {
+  background: #F4F5F7;
+  padding: 5px 20px;
+  margin: 40px 0 20px;
+  border-radius: 4px;
+}
+
+.diploma span {
+  margin-bottom: 50px;
+}
+
+/* section.explore */
+.explore {
+  text-align: center;
+  font-size: 18px;
+  width: 1300px;
+  margin: 40px auto 80px;
+  padding: 30px 0;
+  border-radius: 8px;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.3),
+  rgb(0, 0, 0, 0.4)),
+  url("./images/sign-up-prompt-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.explore h1 {
+  margin-bottom: 20px;
+}
+
+.explore p {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.explore .buttons {
+  margin: 50px 0 10px;
+}
+
+.explore .buttons button {
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 30px;
+}
+
+.explore .buttons .apply {
+  padding: 12px 35px;
+  background: white;
+  color: #42ABF8;
+}
+
+.explore .buttons .curriculum {
+  padding: 15px 40px;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+}
+
+.explore .buttons span {
+  font-size: 32px;
+  font-weight: 400;
+  position: relative;
+  bottom: -5px;
+}
+
+/* footer */
+footer {
+  border-top: 3px solid darkgray;
+  width: 1300px;
+  margin: 0 auto 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 20px;
+}
+
+footer .left-side {
+  display: flex;
+  align-items: center;
+  color: lightgray;
+  font-size: 14px;
+}
+
+footer .left-side .logo-container {
+  padding: 0 20px 0 0;
+}
+
+footer nav .list {
+  list-style: none;
+  display: flex;
+  font-size: 18px;
+}
+
+footer nav .list li {
+  margin: 0 10px;
+}
