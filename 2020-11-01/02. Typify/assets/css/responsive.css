@@ -1,0 +1,42 @@
+@media screen and (max-width: 600px) {
+  body > section:nth-child(2) {
+    display: flex;
+  }
+
+  .feature {
+    width: 90%;
+  }
+
+  body > section.banner > h2 {
+    width: 85%;
+    font-size: 30px;
+  }
+
+  button,
+  .actions input {
+    width: 500px;
+  }
+
+  body > section.wrapper.style2.special > div > form {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #message {
+    display: unset;
+  }
+
+  body > section.wrapper.style2.special > div > form > article:nth-child(1),
+  body > section.wrapper.style2.special > div > form > article:nth-child(2) {
+    width: unset;
+  }
+
+  input[type="text"], input[type="email"], textarea {
+    display: unset;
+    width: 80%;
+  }
+
+  .wrapper > .inner.narrow {
+    width: 32em;
+  }
+}
