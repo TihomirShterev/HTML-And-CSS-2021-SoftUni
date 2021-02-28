@@ -1,0 +1,70 @@
+@media screen and (max-width: 600px) {
+  body > header > article.header-img-wrapper {
+    display: none;
+  }
+
+  body > nav,
+  body > nav > article.navigation-list-items > ul,
+  body > main > section.benefits,
+  body > main > section.info-section {
+    flex-direction: column;
+  }
+
+  body > nav > article.navigation-list-items > ul {
+    margin-top: 30px;
+    font-size: 1.3rem;
+  }
+
+  body > nav > article.navigation-list-items > ul > li:nth-child(1) > a {
+    font-size: unset;
+  }
+
+  body > header > article.header-content > p {
+    font-size: 1.3rem;
+    line-height: 2.5;
+    width: 90%;
+  }
+
+  body > main > section.benefits > article > span > i {
+    font-size: 4rem;
+  }
+
+  body > main > section.benefits > article > h5 {
+    font-size: 1.3rem;
+  }
+
+  body > main > section.benefits > article > p {
+    font-size: 1.3rem;
+    line-height: 2;
+  }
+
+  body > main > section.cta-section {
+    font-size: 1.3rem;
+  }
+
+  body > main > section.cta-section > h2 {
+    font-size: 2rem;
+  }
+
+  body > main > section.cta-section > button {
+    font-size: 1.5rem;
+  }
+
+  body > main > section.info-section {
+    font-size: 1.5rem;
+  }
+
+  body > main > section.info-section > article {
+    width: unset;
+    margin: 40px 0;
+  }
+  
+  body > main > section.info-section > article > p {
+    line-height: 1.5;
+  }
+
+  footer {
+    font-size: 18px;
+    padding: 50px 100px;
+  }
+}
